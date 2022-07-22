@@ -9,10 +9,25 @@ features:
 
 ### J.K. Author1, M.T. Author2, ...
 
+Contact us: 
+* <first-author-email>
+* <second-author-email>
+* ...
+* <dmitriy.vatolin@graphics.cs.msu.ru>
+* <video@compression.ru>
+
 ## Abstract
 Write the abstract of the paper here.
 
-**Read full text of the paper [here](https://arxiv.org/).** <!-- Link to the paper -->
+<!-- Add Download Full Text button-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div>
+<button class="download-button" role="button" onclick="location.href = 'https://arxiv.org/pdf/...'"> <!-- Insert link here-->
+    <i class="fa fa-download"></i>
+    Download Full Text
+</button>
+<p class="download-button-caption">(PDF, 128 MB)</p>  <!-- Insert correct filesize here-->
+</div>
 
 ## Key Features
 * Feature1
@@ -26,6 +41,19 @@ Main part of the page
 
  -->
 
-
 ## Cite us
+{% highlight BibTeX %}
 @article{...}
+{% endhighlight 
+
+## Contact us
+
+For questions and propositions, please contact us: <first-author-email>, <second-author-email>, ..., <dmitriy.vatolin@graphics.cs.msu.ru>, and <video@compression.ru>
+
+## See also 
+* [Paper1](link)
+* [Paper2](link) 
+* [MSU benchmarks](https://videoprocessing.ai/benchmarks/)
+
+## References <!-- Other papers that were mentioned in the main part of the page -->
+...
